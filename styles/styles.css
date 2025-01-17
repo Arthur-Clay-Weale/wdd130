@@ -22,8 +22,26 @@ img{
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
+main {
+    max-width: 840px;
+}
 
+aside {
+    width: 20em;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/* To add an image */
+aside img {
+    width: 200px;
+    height: auto;
+}
 
