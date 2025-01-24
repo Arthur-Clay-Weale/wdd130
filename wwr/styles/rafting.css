@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #0153A5;
+    --secondary-color: #232560;
+    --accent-1-color: #212F6D;
+    --accent-color: #FFFFFF;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat';
+}
+
+a, p {
+    font-family: 'Lora';
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    background-image: url('images/rafting-wide-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1{
+    position: absolute;
+    top: 1px;
+    left: 350px;
+    color: var(--secondary-color);
+    z-index: 1;
+    text-align: center;
+    background-color: RGBA(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 120px;
+}
+
+.hero article {
+    position: absolute;
+    top: 15px;
+    padding: 30px;
+}
+
+.hero article p {
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 100px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+section h2 {
+    color: var(--secondary-color);
+}
