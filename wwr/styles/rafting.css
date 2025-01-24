@@ -24,6 +24,11 @@ a {
     list-style-type: none;
 }
 
+ul li {
+    list-style: none;
+    list-style-type: none;
+}
+
 .hero {
     position: relative;
     background-image: url('images/rafting-wide-image.jpg');
