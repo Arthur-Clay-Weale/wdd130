@@ -15,13 +15,15 @@ h1, h2 {
     font-family: 'Montserrat';
 }
 
-a, p {
+p {
     font-family: 'Lora';
 }
 
 a {
     text-decoration: none;
     list-style-type: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
 }
 
 ul li {
@@ -79,4 +81,95 @@ article {
 
 section h2 {
     color: var(--secondary-color);
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+.adventure-section-cls-container {
+    padding: 2px;
+    background-color: var(--accent-1-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-top: 1px solid #ccc;
+    color: var(--accent-color);
+}
+
+.copyright-container {
+    flex: 1;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.history-subsection {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--accent-color);
+}
+
+.history-section {
+    background-color: var(--primary-color);
+    padding: 25px;
+}
+
+section h2 {
+    color: var(--accent-color);
+    margin-left: 50px;
+}
+
+footer .copyright-container p {
+    color: var(--accent-color) ;
+    font-family: 'Montserrat';
+}
+
+figure figcaption {
+    text-align: center;
+    color: var(--accent-color);
+    font-family: 'Montserrat' !important;
 }
