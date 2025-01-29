@@ -171,5 +171,5 @@ footer .copyright-container p {
 figure figcaption {
     text-align: center;
     color: var(--accent-color);
-    font-family: 'Montserrat' !important;
+    font-family: 'Montserrat';
 }
