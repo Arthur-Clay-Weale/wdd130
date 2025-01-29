@@ -28,7 +28,6 @@ a {
 
 ul li {
     list-style: none;
-    list-style-type: none;
 }
 
 .hero {
@@ -80,7 +79,7 @@ article {
 }
 
 section h2 {
-    color: var(--secondary-color);
+    color: var(--accent-color);
     text-align: center;
 }
 
@@ -158,10 +157,6 @@ footer {
     padding: 25px;
 }
 
-section h2 {
-    color: var(--accent-color);
-}
-
 footer .copyright-container p {
     color: var(--accent-color) ;
     font-family: 'Montserrat';
@@ -173,6 +168,3 @@ figure figcaption {
     font-family: 'Montserrat';
 }
 
-.mid-image {
-    justify-items:center ;
-}
