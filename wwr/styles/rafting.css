@@ -11,6 +11,41 @@ body {
     padding: 0 20px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 120px; /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+.list-container {
+    display: flex;
+    gap: 20px; /* Adds space between the navigation links */
+}
+
+.list-container li {
+    list-style: none;
+}
+
+.list-container li a {
+    color: var(--accent-color);
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-size: 16px;
+}
+
 h1, h2 {
     font-family: 'Montserrat';
 }
@@ -81,21 +116,6 @@ article {
 section h2 {
     color: var(--accent-color);
     text-align: center;
-}
-
-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.list-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-header {
-    background-color: var(--secondary-color);
 }
 
 .img-container {
