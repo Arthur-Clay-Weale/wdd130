@@ -171,7 +171,11 @@ footer {
     padding: 25px;
 }
 
-
+/*Address-container contains the map and the address of the company*/
+.address-container {
+    width: auto;
+    height: 400px;
+}
 
 footer .copyright-container p {
     color: var(--accent-color) ;
