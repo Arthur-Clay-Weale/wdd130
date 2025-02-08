@@ -124,6 +124,13 @@ section h2 {
     grid-gap: 10px;
 }
 
+/*Our team container css styling */
+.our-team-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
 section img {
     max-width: 100%;
     height: auto;
@@ -163,6 +170,8 @@ footer {
     background-color: var(--primary-color);
     padding: 25px;
 }
+
+
 
 footer .copyright-container p {
     color: var(--accent-color) ;
