@@ -111,7 +111,7 @@ figure img {
     color: var(--primary-color);
 }
 
-.hero article h2,br  {
+.hero article h2, .address-div1 h2  {
     color: var(--primary-color);
 }
 
