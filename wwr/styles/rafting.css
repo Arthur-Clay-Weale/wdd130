@@ -50,9 +50,14 @@ h1, h2 {
     font-family: 'Montserrat';
 }
 
-p {
+p{
     font-family: 'Lora';
+    /* color: var(--primary-color); */
 }
+
+.history-section p {
+    color: var(--accent-color);
+} 
 
 a {
     text-decoration: none;
@@ -70,9 +75,10 @@ ul li {
     background-image: url('images/rafting-wide-image.jpg');
     background-size: cover;
     background-position: center;
+    background-color: var(--accent-color);
 }
 
-.hero h1{
+.hero h1, .home-article{
     position: absolute;
     top: 1px;
     left: 350px;
@@ -83,12 +89,38 @@ ul li {
     border-radius: 10px;
 }
 
-.hero img {
+.home-hero h1{
+    position: absolute;
+    top: 170px;
+    left: 350px;
+    color: var(--secondary-color);
+    z-index: 1;
+    text-align: center;
+    background-color: RGBA(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.hero img, .home-hero img {
     position: relative;
     display: block;
     width: 100%;
     height: auto;
 }
+
+.hero-article ,article{
+    position: absolute;
+    top: 15px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 100px;
+    border-radius: 10px;
+    width: 940px;
+    justify-items: center;
+}
+/* 
+.home-hero {
+    height: 400px;
+} */
 
 figure img {
     width: 100%;
@@ -100,30 +132,28 @@ figure img {
     width: 120px;
 }
 
-.hero article {
+/* .hero article {
     position: absolute;
     top: 15px;
     padding: 30px;
-}
+} */
 
-.hero article p {
+.hero article p, figure p{
     font-size: 15px;
     color: var(--primary-color);
 }
 
-.hero article h2, .address-div1 h2  {
+.hero article h2, .address-div1 h2 ,.trip-subsection div figure figcaption{
     color: var(--primary-color);
 }
 
 
-
-
-article {
+/* article {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 100px;
     border-radius: 10px;
     /* height: 60px; */
-}
+
 
 section h2 {
     color: var(--accent-color);
@@ -137,7 +167,7 @@ section h2 {
 }
 
 /*Our team container css styling */
-.our-team-img-container {
+.our-team-img-container, .trip-subsection div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
@@ -149,7 +179,7 @@ section img {
     flex: 1;
 }
 
-.adventure-section-cls-container {
+.adventure-section-cls-container, .trip-table {
     padding: 2px;
     background-color: var(--accent-1-color);
 }
@@ -183,6 +213,10 @@ footer {
     padding: 25px;
 }
 
+.trip-catalogue {
+    background-color: var(--accent-color);
+}
+
 /*Address-container contains the map and the address of the company*/
 .address-container {
     width: auto;
@@ -190,6 +224,10 @@ footer {
     background-color: var(--accent-color);
     display: flex;
     justify-content: space-around;
+}
+
+.address-section {
+    margin: 0;
 }
 
 .address-div1, .map {
@@ -249,8 +287,8 @@ footer {
     align-self: center;
 }
 
-.submit {
-    width: 110px;
+.submit ,.cta-btn{
+    width: auto;
     height: 25px;
     border-radius: 7px;
     border: 2px solid var(--primary-color);
@@ -258,6 +296,21 @@ footer {
     color: var(--accent-color);
     align-self: center;
     font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.cta-hero-btn {
+    position: absolute;
+    margin-top: 200px;
+    width: auto;
+    height: 25px;
+    border-radius: 7px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    align-self: center;
+    font-weight: 500;
+    font-family: 'Montserrat';
 }
 
 .radio-group {
@@ -305,3 +358,23 @@ figure figcaption {
     font-family: 'Montserrat';
 }
 
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 3px;
+    color: var(--accent-color);
+}
+
+thead th {
+    background-color: var(--primary-color);
+    /* color: var(--accent-color); */
+    padding: 10px;
+    text-align: start;
+    font-family: 'Montserrat';
+}
+
+tbody td {
+    padding: 10px;
+    text-align: start;
+    font-family: 'Montserrat';
+}
