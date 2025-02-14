@@ -155,7 +155,7 @@ figure img {
     /* height: 60px; */
 
 
-section h2 {
+section h2, .offerings-section figure p{
     color: var(--accent-color);
     text-align: center;
 }
@@ -167,7 +167,7 @@ section h2 {
 }
 
 /*Our team container css styling */
-.our-team-img-container, .trip-subsection div {
+.our-team-img-container, .trip-subsection div, .offerings-section div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
@@ -179,7 +179,7 @@ section img {
     flex: 1;
 }
 
-.adventure-section-cls-container, .trip-table {
+.adventure-section-cls-container, .trip-table,.offerings-section {
     padding: 2px;
     background-color: var(--accent-1-color);
 }
