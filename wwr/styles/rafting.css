@@ -155,7 +155,7 @@ figure img {
     /* height: 60px; */
 
 
-section h2, .offerings-section figure p{
+section h2, .offerings-section figure p, .newsletter-section p{
     color: var(--accent-color);
     text-align: center;
 }
@@ -267,6 +267,19 @@ footer {
     padding: 20px;
     background-color: var(--primary-color);
     height: 510px;
+}
+
+.newsletter-section form {
+    width: 350px;
+    height: 230px;
+    background-color: var(--accent-color);
+    justify-self: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;*/
+    align-items: start; 
+    justify-content: space-around;
 }
 
 .email, .name {
