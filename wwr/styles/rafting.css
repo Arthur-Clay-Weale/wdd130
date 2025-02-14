@@ -143,8 +143,9 @@ figure img {
     color: var(--primary-color);
 }
 
-.hero article h2, .address-div1 h2 ,.trip-subsection div figure figcaption{
+.hero article h2, .address-div1 h2 ,.trip-subsection div figure figcaption, .trip-catalogue h2{
     color: var(--primary-color);
+    margin-top: 0;
 }
 
 
@@ -167,7 +168,7 @@ section h2, .offerings-section figure p, .newsletter-section p{
 }
 
 /*Our team container css styling */
-.our-team-img-container, .trip-subsection div, .offerings-section div {
+.our-team-img-container, .trip-subsection div, .offerings-section .grid-container, .trip-catalogue .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
@@ -357,7 +358,6 @@ input[type="checkbox"] {
     justify-content: space-between;
     align-self: center;
     gap: 10px;
-    
 }
 
 footer .copyright-container p {
@@ -390,4 +390,19 @@ tbody td {
     padding: 10px;
     text-align: start;
     font-family: 'Montserrat';
+}
+
+.grid-cell {
+    display: flex;
+    flex-direction: column;
+}
+
+.para {
+    padding: 10px;
+    color: var(--accent-color);
+}
+
+.grid-container .trip-para {
+    padding: 15px;
+    color: var(--primary-color);
 }
