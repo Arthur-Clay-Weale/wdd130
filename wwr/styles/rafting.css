@@ -304,13 +304,14 @@ footer {
 .submit ,.cta-btn{
     width: auto;
     height: 25px;
-    border-radius: 7px;
+    border-radius: 30px;
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
     color: var(--accent-color);
     align-self: center;
     font-weight: 500;
     font-family: 'Montserrat';
+    padding: 12px;
 }
 
 .cta-hero-btn {
